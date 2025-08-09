@@ -1,0 +1,33 @@
+{
+  "name": "dead-mans-dao",
+  "version": "1.0.0",
+  "description": "A decentralized, autonomous inheritance & secret transfer system built on blockchain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "node": "npx hardhat node",
+    "coverage": "npx hardhat coverage"
+  },
+  "keywords": ["blockchain", "solidity", "dao", "inheritance", "will", "defi"],
+  "author": "Dead Man's DAO Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/hardhat-upgrades": "^2.4.0",
+    "hardhat": "^2.19.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.5"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0",
+    "arweave": "^1.14.4",
+    "crypto-js": "^4.2.0",
+    "ethers": "^6.9.0",
+    "ipfs-http-client": "^60.0.1",
+    "shamir-secret-sharing": "^1.1.1"
+  }
+}
